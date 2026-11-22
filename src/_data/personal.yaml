@@ -1,13 +1,10 @@
 # Personal details used for public facing pages (legal pages) and footer platform links.
 
-email: hola@somemail.com
+email: archivistes@archivescontestataires.ch
 address: |-
-  Organization name
-  Your street
-  12345, city
-  Tel: +34 928231911
+  Association Archives contestataires
+  2 Bd Carl-Vogt
+  CH-1205, Genève
 platforms:
-  github: 'https://github.com/madrilene/eleventy-excellent'
-  mastodon: 'https://front-end.social/@lene'
-  bluesky: 'https://bsky.app/profile/lenesaile.com'
-  kofi: 'https://ko-fi.com/lenesaile'
+  github: 'https://github.com/alfmig/ac_environnement'
+  mastodon: 'https://pouet.chapril.org/@archicon'

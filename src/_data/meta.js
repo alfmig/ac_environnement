@@ -1,28 +1,28 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Eleventy Excellent';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
+export const siteName = 'Histoire des luttes environnementales';
+export const siteDescription = 'Répertoire de sources pour les luttes environnementales en Suisse romande';
 export const siteType = 'Person'; // schema
-export const locale = 'en_EN';
-export const lang = 'en';
+export const locale = 'fr_CH';
+export const lang = 'fr';
 export const skipContent = 'Skip to content';
 // for the site content author, used in <head> meta and post h-card microformat
 export const author = {
-  name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+  name: 'Archives contestataires', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  fediverse: '@lene@front-end.social', // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  fediverse: '@archicon@pouet.chapril.org', // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
   me: [
     // loop over verified rel=me profiles in the HTML <head>
-    'https://front-end.social/@lene'
+    'https://pouet.chapril.org/@archicon'
   ]
 };
 // for the site developer, used for footer credits and humans.txt info
 export const creator = {
-  name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
-  social: 'https://front-end.social/@lene'
+  name: 'Archives contestataires', // i.e. Lene Saile - creator's (developer) name.
+  email: 'archivistes@archivescontestataires.ch',
+  website: 'https://www.archivescontestataires.ch',
+  social: 'https://pouet.chapril.org/@archicon'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
@@ -30,11 +30,11 @@ export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light 
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  "Visible content: An Eleventy starter with CUBE CSS, Every Layout, Design Tokens and Tailwind for utility classes. A workflow for building modern and resilient websites, introduced by Andy Bell's project buildexcellentwebsit.es"; // alt text for default meta image
+  "Histoire des luttes environnementales en Suisse romande"; // alt text for default meta image
 export const blog = {
   // RSS feed
-  name: 'My Web Development Blog',
-  description: 'Tell the world what you are writing about in your blog. It will show up in feed readers.',
+  name: 'Histoire des luttes environnementales',
+  description: 'Répertoire de sources pour les luttes environnementales en Suisse romande.',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {
@@ -51,36 +51,36 @@ export const blog = {
   // Tags
   tagSingle: 'Tag',
   tagPlural: 'Tags',
-  tagMore: 'More tags:',
+  tagMore: 'Autres tags:',
   // pagination
   paginationLabel: 'Blog',
   paginationPage: 'Page',
-  paginationPrevious: 'Previous',
-  paginationNext: 'Next',
+  paginationPrevious: 'Précédente',
+  paginationNext: 'Prochaine',
   paginationNumbers: true
 };
 export const details = {
   aria: 'section controls',
-  expand: 'expand all',
-  collapse: 'collapse all'
+  expand: 'tout déplier',
+  collapse: 'tout fermer'
 };
 export const dialog = {
-  close: 'Close',
-  next: 'Next',
-  previous: 'Previous'
+  close: 'Ferme',
+  next: 'Prochain',
+  previous: 'Précédent'
 };
 export const navigation = {
   navLabel: 'Menu',
-  ariaTop: 'Main',
-  ariaBottom: 'Complementary',
-  ariaPlatforms: 'Platforms',
+  ariaTop: 'Principal',
+  ariaBottom: 'Complémentaire',
+  ariaPlatforms: 'Plateformes',
   drawerNav: false,
   subMenu: false
 };
 export const themeSwitch = {
-  title: 'Theme',
-  light: 'light',
-  dark: 'dark'
+  title: 'Mode',
+  light: 'jour',
+  dark: 'nuit'
 };
 export const greenweb = {
   // https://carbontxt.org/
